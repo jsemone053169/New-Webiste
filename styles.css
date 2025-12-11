@@ -1,0 +1,103 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: auto;
+  padding: 0;
+  width: 60rem;
+}
+
+.header {
+  display: flex;
+  margin: 2rem 3rem;
+  width: 60rem;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.name-contact-block {
+  width: 50rem;
+  border: none;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.email {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  width: 60%;
+  border-radius: 20%;
+}
+
+.fa-square-linkedin {
+  padding-right: 3rem;
+  margin: 0;
+  width: 100%;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.main-content {
+  margin-left: 3rem;
+}
+
+.results {
+  padding-left: 1rem;
+  width: 60rem;
+  background-color: antiquewhite;
+}
+
+.experience {
+  padding-left: 1rem;
+  width: 60rem;
+  background-color: rgb(196, 236, 255);
+}
+
+.expertise {
+  padding-left: 1rem;
+  width: 60rem;
+  background-color: rgb(187, 226, 149);
+}
+
+.content, .about-me-content {
+  padding-left: 1rem;
+  width: 60rem;
+  line-height: 1.75rem;
+}
+.divider {
+  margin-left: 4rem;
+  margin-top: 2rem;
+  width: 60rem;
+  height: .25rem;
+  background-color: black;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.contact {
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.about-me-header, .about-me-content{
+  margin: 1rem 2rem;
+  padding-left: 2rem;
+  padding-bottom: 0;
+  width: 60rem;
+}
